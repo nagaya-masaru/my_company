@@ -22,7 +22,7 @@
                             │
               ┌─────────────┼─────────────┐
               │             │             │
-        取締役会 (7名)   秘書室         事業部 (15)
+        取締役会 (7名)   秘書室         事業部 (22)
         Stop/Go決議    設楽拳一        ↓
         ├ Elon Musk
         ├ Bill Gates
@@ -32,22 +32,120 @@
         ├ Jensen Huang
         └ 孫正義
 
-事業部:
+事業部 (既存14):
 ├ 営業部 — Jordan Belfort
 ├ 法務部 — 九条間人 / 古美門研介 (二人体制)
 ├ 財務部 — Warren Buffett
 ├ ブランディング・広報事業部 — Steve Jobs
 ├ クリエイティブ部 — 今敏 / 空山基 (二人体制)
-├ マーケティング部 — Philip Kotler
+├ マーケティング部 — Philip Kotler (デジタルマーケティング本部 Neil Patel 配下に7部門42名のシニアマーケターを持つ)
 ├ ヘルスケア事業部 — Peter Attia
 ├ 投資・資産運用部 — Howard Marks
-├ システム開発部 — Linus Torvalds / Dennis Ritchie (二人体制)
+├ システム開発部 — Linus Torvalds / Dennis Ritchie (二人体制 / 5部門20名のテックリードを配下に持つ)
 ├ 海外展開部 — Elon Musk (取締役兼任)
 ├ ナレッジ部 — Ray Dalio
 ├ M&A・PE部 — Stephen Schwarzman
 ├ デザイン事業部 — Jonathan Ive
 └ AI・テクノロジー部 — Geoffrey Hinton / Sam Altman (二人体制)
+
+事業部 (2026-05-27 取締役会決議で新設・即時稼働8部署):
+├ カスタマーサクセス事業部 — Tony Hsieh
+├ オペレーション・サプライチェーン事業部 — Wei Gao
+├ データ・アナリティクス事業部 — DJ Patil
+├ インフラ・クラウド・GPU調達事業部 — Werner Vogels (※システム開発部AWS部門テックリードを兼任)
+├ サイバーセキュリティ事業部 — Mikko Hyppönen
+├ People Operations 事業部 — Laszlo Bock
+├ コミュニティ・SNS・クリエイター経済圏事業部 — MrBeast (Jimmy Donaldson)
+└ 検索・社内情報アーキテクチャ事業部 — Sergey Brin
+
+事業部 (2026 Q3 再評価予定9部署 — 取締役会可決済み・未稼働):
+ロボティクス (Marc Raibert) / エネルギー (Greg Jackson) / R&D・ムーンショット (Astro Teller) /
+量子コンピューティング (Hartmut Neven) / 生命科学・バイオテック (Jennifer Doudna) /
+VR/AR (Palmer Luckey) / シミュレーション・デジタルツイン (Rev Lebaredian) /
+AGI戦略 (Demis Hassabis) / 宇宙 (Gwynne Shotwell)
 ```
+
+### システム開発部 配下組織 (2026-05-27 新設)
+
+```
+システム開発部本部 (Torvalds + Ritchie)
+├ アプリ開発部
+│  ├ Flutter部門 — Tim Sneath
+│  ├ iOS (Swift)部門 — Chris Lattner
+│  ├ Android (Kotlin)部門 — Jake Wharton
+│  └ アプリ技術研究部門 — Ken Wheeler
+├ Web開発部門
+│  ├ React.js部門 — Dan Abramov
+│  ├ Next.js部門 — Guillermo Rauch
+│  └ Web技術研究部門 — Addy Osmani
+├ Web制作部門
+│  ├ HP部門 — Jeffrey Zeldman
+│  ├ LP部門 — Oli Gardner
+│  ├ WordPress部門 — Matt Mullenweg
+│  └ Web制作研究部門 — Brad Frost
+├ バックエンド開発部門
+│  ├ Laravel部門 — Taylor Otwell
+│  ├ Python部門 — Guido van Rossum
+│  ├ TypeScript部門 — Anders Hejlsberg
+│  └ バックエンド研究部門 — Martin Fowler
+└ インフラ部門
+   ├ AWS部門 — Werner Vogels
+   ├ GCP部門 — Urs Hölzle
+   ├ Firebase部門 — James Tamplin
+   ├ Supabase部門 — Paul Copplestone
+   └ インフラ研究部門 — Kelsey Hightower
+```
+全員テックリードかつシニアエンジニア。各領域のエキスパート資格・スペシャリスト資格・ゴールド資格を保有。技術選定/ルーティング/アーキテクチャ/状態管理/ORM/バリデーション/ランタイム選定までを実装責任で持つ。
+
+### マーケティング部 配下組織 / デジタルマーケティング本部 (2026-05-27 新設)
+
+```
+マーケティング部 (Kotler) — 戦略統括
+└ デジタルマーケティング本部 (Neil Patel) — 戦術実行責任者
+   ├ 広告運用部 (Frederick Vallaeys)
+   │  ├ Google広告部門 — Brad Geddes
+   │  ├ Meta広告部門 — Andrew Foxwell
+   │  ├ Yahoo!広告部門 — 杉原 剛
+   │  ├ TikTok広告部門 — Cody Plofker
+   │  └ 広告運用技術研究部門 — Aaron Levy
+   ├ SEOマーケティング部 (Rand Fishkin)
+   │  ├ 内部SEO部門 — Aleyda Solis
+   │  ├ コンテンツSEO部門 — Brian Dean
+   │  ├ テクニカルSEO部門 — Bartosz Goralewicz
+   │  └ SEO技術研究部門 — John Mueller
+   ├ SNSマーケティング部 (Gary Vaynerchuk)
+   │  ├ Instagram部門 — Jasmine Star
+   │  ├ X(Twitter)部門 — Justin Welsh
+   │  ├ TikTok部門 — Vanessa Pappas
+   │  ├ YouTube部門 — Roberto Blake
+   │  └ SNS技術研究部門 — Mari Smith
+   ├ コンテンツマーケティング部 (Joe Pulizzi)
+   │  ├ 記事コンテンツ部門 — Ann Handley
+   │  ├ ホワイトペーパー部門 — David Meerman Scott
+   │  ├ 動画コンテンツ部門 — Marcus Sheridan
+   │  ├ メルマガ・ナーチャリング部門 — Justine Jordan
+   │  └ コンテンツマーケ技術研究部門 — Robert Rose
+   ├ Web改善・LPO部 (Peep Laja)
+   │  ├ LP改善部門 — Talia Wolf
+   │  ├ HP改善部門 — Tim Ash
+   │  ├ フォーム改善部門 — Luke Wroblewski
+   │  ├ CVR改善部門 — Bryan Eisenberg
+   │  └ LPO技術研究部門 — André Morys
+   ├ CRM・MA部 (Scott Brinker)
+   │  ├ HubSpot部門 — Brian Halligan
+   │  ├ Salesforce部門 — David Schmaier
+   │  ├ LINEマーケティング部門 — 田端 信太郎
+   │  ├ メールマーケティング部門 — Chad White
+   │  └ CRM・MA技術研究部門 — David Raab
+   └ データ分析・マーケティング基盤部 (Avinash Kaushik)
+      ├ Google Analytics部門 — Krista Seiden
+      ├ Google Tag Manager部門 — Simo Ahava
+      ├ Looker Studio部門 — Charles Farina
+      ├ 広告・CRMデータ統合部門 — Jim Sterne
+      └ データ分析・計測技術研究部門 — Brian Clifton
+```
+
+全員マーケティングリードかつシニアマーケター。Google広告/Meta広告/SEO/SNS/MA/CRM/Web解析/データ分析の各領域でエキスパート資格・上位資格保有。戦略立案/媒体選定/ターゲティング/クリエイティブ方針/計測設計/KPI設計/改善施策の優先順位付けまでを実行責任で持つ。各部門は単独で施策を進めず、広告・SEO・SNS・コンテンツ・LPO・CRM・データ分析を横断連携する。
 
 ---
 
@@ -67,16 +165,86 @@
 | クリエイティブ | 今敏 | `creative-kon` |
 | クリエイティブ | 空山基 | `creative-sorayama` |
 | マーケティング | Philip Kotler | `marketing-kotler` |
+| デジタルマーケティング本部 | Neil Patel | `dm-head-patel` |
+| 広告運用部 部長 | Frederick Vallaeys | `dm-ads-head-vallaeys` |
+| 広告運用 / Google広告 | Brad Geddes | `dm-ads-google-geddes` |
+| 広告運用 / Meta広告 | Andrew Foxwell | `dm-ads-meta-foxwell` |
+| 広告運用 / Yahoo!広告 | 杉原 剛 | `dm-ads-yahoo-sugihara` |
+| 広告運用 / TikTok広告 | Cody Plofker | `dm-ads-tiktok-plofker` |
+| 広告運用 / 技術研究 | Aaron Levy | `dm-ads-research-levy` |
+| SEOマーケティング部 部長 | Rand Fishkin | `dm-seo-head-fishkin` |
+| SEO / 内部SEO | Aleyda Solis | `dm-seo-internal-solis` |
+| SEO / コンテンツSEO | Brian Dean | `dm-seo-content-dean` |
+| SEO / テクニカルSEO | Bartosz Goralewicz | `dm-seo-technical-goralewicz` |
+| SEO / 技術研究 | John Mueller | `dm-seo-research-mueller` |
+| SNSマーケティング部 部長 | Gary Vaynerchuk | `dm-sns-head-vaynerchuk` |
+| SNS / Instagram | Jasmine Star | `dm-sns-instagram-star` |
+| SNS / X(Twitter) | Justin Welsh | `dm-sns-x-welsh` |
+| SNS / TikTok | Vanessa Pappas | `dm-sns-tiktok-pappas` |
+| SNS / YouTube | Roberto Blake | `dm-sns-youtube-blake` |
+| SNS / 技術研究 | Mari Smith | `dm-sns-research-smith` |
+| コンテンツマーケティング部 部長 | Joe Pulizzi | `dm-content-head-pulizzi` |
+| コンテンツ / 記事 | Ann Handley | `dm-content-article-handley` |
+| コンテンツ / ホワイトペーパー | David Meerman Scott | `dm-content-whitepaper-scott` |
+| コンテンツ / 動画 | Marcus Sheridan | `dm-content-video-sheridan` |
+| コンテンツ / メルマガ・ナーチャリング | Justine Jordan | `dm-content-email-jordan` |
+| コンテンツ / 技術研究 | Robert Rose | `dm-content-research-rose` |
+| Web改善・LPO部 部長 | Peep Laja | `dm-lpo-head-laja` |
+| LPO / LP改善 | Talia Wolf | `dm-lpo-lp-wolf` |
+| LPO / HP改善 | Tim Ash | `dm-lpo-hp-ash` |
+| LPO / フォーム改善 | Luke Wroblewski | `dm-lpo-form-wroblewski` |
+| LPO / CVR改善 | Bryan Eisenberg | `dm-lpo-cvr-eisenberg` |
+| LPO / 技術研究 | André Morys | `dm-lpo-research-morys` |
+| CRM・MA部 部長 | Scott Brinker | `dm-crm-head-brinker` |
+| CRM / HubSpot | Brian Halligan | `dm-crm-hubspot-halligan` |
+| CRM / Salesforce | David Schmaier | `dm-crm-salesforce-schmaier` |
+| CRM / LINEマーケティング | 田端 信太郎 | `dm-crm-line-tabata` |
+| CRM / メールマーケティング | Chad White | `dm-crm-email-white` |
+| CRM / 技術研究 | David Raab | `dm-crm-research-raab` |
+| 分析・基盤部 部長 | Avinash Kaushik | `dm-analytics-head-kaushik` |
+| 分析 / Google Analytics | Krista Seiden | `dm-analytics-ga-seiden` |
+| 分析 / Google Tag Manager | Simo Ahava | `dm-analytics-gtm-ahava` |
+| 分析 / Looker Studio | Charles Farina | `dm-analytics-looker-farina` |
+| 分析 / 広告・CRMデータ統合 | Jim Sterne | `dm-analytics-integration-sterne` |
+| 分析 / 計測技術研究 | Brian Clifton | `dm-analytics-research-clifton` |
 | ヘルスケア | Peter Attia | `healthcare-attia` |
 | 投資・資産運用 | Howard Marks | `investment-marks` |
 | システム開発 | Linus Torvalds | `dev-torvalds` |
 | システム開発 | Dennis Ritchie | `dev-ritchie` |
+| アプリ開発 / Flutter | Tim Sneath | `app-flutter-sneath` |
+| アプリ開発 / iOS (Swift) | Chris Lattner | `app-ios-lattner` |
+| アプリ開発 / Android (Kotlin) | Jake Wharton | `app-android-wharton` |
+| アプリ開発 / 技術研究 | Ken Wheeler | `app-research-wheeler` |
+| Web開発 / React.js | Dan Abramov | `web-react-abramov` |
+| Web開発 / Next.js | Guillermo Rauch | `web-next-rauch` |
+| Web開発 / 技術研究 | Addy Osmani | `web-research-osmani` |
+| Web制作 / HP | Jeffrey Zeldman | `studio-hp-zeldman` |
+| Web制作 / LP | Oli Gardner | `studio-lp-gardner` |
+| Web制作 / WordPress | Matt Mullenweg | `studio-wordpress-mullenweg` |
+| Web制作 / 技術研究 | Brad Frost | `studio-research-frost` |
+| バックエンド / Laravel | Taylor Otwell | `backend-laravel-otwell` |
+| バックエンド / Python | Guido van Rossum | `backend-python-vanrossum` |
+| バックエンド / TypeScript | Anders Hejlsberg | `backend-typescript-hejlsberg` |
+| バックエンド / 技術研究 | Martin Fowler | `backend-research-fowler` |
+| インフラ / AWS | Werner Vogels | `infra-aws-vogels` |
+| インフラ / GCP | Urs Hölzle | `infra-gcp-holzle` |
+| インフラ / Firebase | James Tamplin | `infra-firebase-tamplin` |
+| インフラ / Supabase | Paul Copplestone | `infra-supabase-copplestone` |
+| インフラ / 技術研究 | Kelsey Hightower | `infra-research-hightower` |
 | 海外展開 | Elon Musk | `global-musk` |
 | ナレッジ | Ray Dalio | `knowledge-dalio` |
 | M&A・PE | Stephen Schwarzman | `ma-schwarzman` |
 | デザイン | Jonathan Ive | `design-ive` |
 | AI・テクノロジー | Geoffrey Hinton | `ai-hinton` |
 | AI・テクノロジー | Sam Altman | `ai-altman` |
+| カスタマーサクセス | Tony Hsieh | `cs-hsieh` |
+| オペレーション・サプライチェーン | Wei Gao | `ops-gao` |
+| データ・アナリティクス (CDO) | DJ Patil | `data-patil` |
+| インフラ・クラウド・GPU調達 | Werner Vogels | `infra-vogels` |
+| サイバーセキュリティ (CISO) | Mikko Hyppönen | `security-hypponen` |
+| People Operations (CHRO) | Laszlo Bock | `people-bock` |
+| コミュニティ・SNS・クリエイター | MrBeast (Jimmy Donaldson) | `community-mrbeast` |
+| 検索・社内情報アーキテクチャ | Sergey Brin | `search-brin` |
 | CEO秘書室 | 設楽拳一 | `ceo-secretary-shidara` |
 | 取締役会 | 7名合議体 | `board-directors` |
 
