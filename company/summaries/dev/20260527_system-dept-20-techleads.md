@@ -41,9 +41,11 @@
 
 ## アクションアイテム
 
+- [x] CLAUDE.md の組織図とエージェント一覧を更新
+- [x] README.md を最新の組織規模 (22事業部 / 配下60名超 / サブエージェント総数90名) に更新
 - [ ] CEO が必要な案件で実際に呼び出し、各テックリードの応答品質を検証する
 - [ ] セッション再起動後、20名がすべて Agent ツール経由で正しく認識されるか確認 (CLAUDE.md §8 既知の課題に基づく)
-- [ ] 重複領域の調整: 例えば Web制作 LP (Gardner) と Web開発 Next.js (Rauch) の境界、Firebase (Tamplin) と Supabase (Copplestone) の使い分けマトリクス
+- [ ] 重複領域の調整: 例えば Web制作 LP (Gardner) と Web開発 Next.js (Rauch) の境界、Firebase (Tamplin) と Supabase (Copplestone) の使い分けマトリクス、デジタルマーケ LPO部 (Laja配下) と Web制作 LP部 (Gardner) のスコープ整理
 - [ ] [[knowledge-dalio]] のナレッジ部に「技術選定の社内原則」を文書化させる (各部長の標準スタックを集約)
 - [ ] [[finance-buffett]] と相談、ペルソナ追加によって AI 呼び出しコストが急増しないかモニタリング
 
