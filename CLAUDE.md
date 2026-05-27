@@ -161,6 +161,60 @@
 - サブエージェントは「その人物として」喋る。役柄を崩さない
 - 長屋CEOには遠慮なく直言する文化を全エージェントに徹底 (これがDalioの Radical Transparency)
 
+### 7. ハーネス仕様 (2026-05-27 CEO決裁)
+
+AI部 (Hinton + Altman) の聞き取りに基づき、Claude Code ハーネスは以下の方針で運用する。
+
+#### 7-1. 自律性レベル: **最大自律** (Altman 推奨案)
+- `~/.claude/settings.json` の `skipDangerousModePermissionPrompt: true` を維持
+- 例外的にCEO確認が必要な操作: **破壊的操作** (`rm -rf`, `git push --force`, `git reset --hard`, DB drop) と **外部送信** (公開リポジトリpush, 外部API送信, メール/Slack送信)
+- それ以外はClaudeが自律実行。スピード優先
+
+#### 7-2. Stopフック: **全自動サマリ保存**
+- `.claude/hooks/stop-summary-check.sh` が Stop イベントで起動
+- 本日 (`yyyymmdd`) のサマリが `company/summaries/${yyyymmdd}_summary_*.md` に存在しなければブロックし、Claudeにサマリ作成を強制
+- 雑談のみで保存不要のセッションは `${yyyymmdd}_summary_trivial.md` を空で作成すれば停止可
+- ロジック詳細: `.claude/hooks/stop-summary-check.sh` を直接参照
+
+#### 7-3. Bash 許可リスト: **読み取り系コマンドは事前許可**
+プロジェクト `.claude/settings.json` の `permissions.allow` に以下を登録済み:
+```
+ls, pwd, git status/diff/log/branch/show/remote, grep, rg, find, mkdir, test,
+stat, wc, tree, file, which, date, jq, head, tail
+```
+書き込み・ダウンロード・破壊系は都度確認。CEOが追加・削除したい場合は本ファイルとともに更新。
+
+#### 7-4. コスト管理: **月次上限のみ**
+- セッション単位の上限は設けない (進行中作業を切るリスクを避ける)
+- 月次 Claude API 使用料は財務 [[finance-buffett]] の月次バーンレート上限 200万円 に含める
+- Anthropic Console の使用量グラフを週次で Buffett が確認
+- 月次上限の50%・80%到達時に Buffett から CEO へアラート
+
+#### 7-5. 設定ファイル構造
+```
+~/.claude/settings.json                            # グローバル (model, skipDangerousMode等)
+.claude/settings.json                              # プロジェクト (hooks, permissions)
+.claude/hooks/stop-summary-check.sh                # 自動サマリStopフック
+.claude/agents/*.md                                # 20名のサブエージェント定義
+```
+
+### 8. 既知の運用上の課題 — Agent ツール worktree isolation
+
+**事象**: Agent ツール (`subagent_type` 指定) で `.claude/agents/` 配下のサブエージェントを呼び出すと、以下のいずれかのエラーで実行不可になる場合がある:
+- `Agent type 'xxx' not found` — 当該セッション中に新規作成したサブエージェントは未認識 (セッション開始時にのみロードされる)
+- `Cannot create agent worktree: not in a git repository and no WorktreeCreate hooks are configured`
+
+**対処方針** (優先順):
+1. **セッション再起動**: Claude Code を再起動するとサブエージェントが認識される可能性が高い
+2. **git 初期化**: 当ディレクトリは git リポジトリ済み (本日初期化済み)。worktree 用に必須
+3. **代理出力 (Inline Role-Play)**: 上記で解決しない場合、メインClaudeが該当の persona ファイル (`.claude/agents/xxx.md`) を Read して内面化し、メインスレッドで代理出力する。並列性は失うが、品質は persona ファイル準拠で維持される
+4. **settings.json hooks 検討**: 恒久対応として `WorktreeCreate`/`WorktreeRemove` hooks の設定を update-config skill で検討する余地あり (CEO 指示待ち)
+
+**呼び出し前のチェックリスト**:
+- [ ] 対象サブエージェントは現セッション開始前から存在しているか
+- [ ] git リポジトリは初期化済みか
+- [ ] エラーが出たら即座に代理出力に切り替え、CEOを待たせない
+
 ---
 
 ## CEO への約束
