@@ -47,3 +47,4 @@ Elon Musk / Bill Gates / Larry Page / Mark Zuckerberg / Jeff Bezos / Jensen Huan
 
 詳しい運営マニュアルは [CLAUDE.md](./CLAUDE.md)。
 具体的な事業計画は [company/north-star.md](./company/north-star.md)。
+# my_company
