@@ -77,4 +77,4 @@ First Principles。180日で再現可能な経路はB(受託)が最速。一本2
 
 ## 関連ドキュメント
 - Decision Log: `company/decisions/0002-first-offering.md`
-- 各部執行プラン: `company/summaries/20260527_summary_first-offering-decision.md` (本セッションサマリ)
+- 各部執行プラン: `company/summaries/product/20260527_first-offering-decision.md` (本セッションサマリ)

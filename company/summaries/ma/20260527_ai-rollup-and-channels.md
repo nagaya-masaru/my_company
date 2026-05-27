@@ -17,21 +17,21 @@
 - 紹介ネットワーク (税理士・行政書士・司法書士・金融機関) のルートが既に存在
 
 ### 作成完了したドキュメント (4本)
-1. **`company/playbooks/ceo-sns-branding.md`** (294行) — Jobs主導
+1. **`company/playbooks/branding/ceo-sns-branding.md`** (294行) — Jobs主導
    - パーソナルブランド一行定義「人間1名+Claude 20人格で会社を回す世界初のCEO」
    - プラットフォーム別役割 (Threads=日常ドキュメンタリー / X=思想発信地 / LinkedIn=権威確立)
    - メッセージング階層、コンテンツ10テンプレ、月30本カレンダー、オープニング3本投稿草案
    - 危機広報プロトコル、NOリスト (絵文字禁止等)
-2. **`company/playbooks/network-and-referral.md`** (214行) — 設楽主導
+2. **`company/playbooks/sales/network-and-referral.md`** (214行) — 設楽主導
    - 4段階接触戦略 (棚卸し→初動→ニード喚起→クロージング)
    - 紹介報酬構造 (既存顧客=50%OFF / 業界キーマン=個別交渉)
    - 月次KPI、機密管理ルール (名簿はgit管理外)
-3. **`company/playbooks/paid-ads.md`** (307行) — Kotler主導
+3. **`company/playbooks/marketing/paid-ads.md`** (307行) — Kotler主導
    - 月次予算 50→100→100→100→80→50万 (6ヶ月計480万)
    - チャネル配分 Meta 50% / X 20% / LINE 20% / バッファ10%
    - CAC上限30万 (Buffett決裁ライン)、CVR/CTR/CPL目標
    - リターゲ5セグメント別クリエイティブ
-4. **`company/playbooks/ai-rollup-strategy.md`** (648行) — Schwarzman主導
+4. **`company/playbooks/ma/ai-rollup-strategy.md`** (648行) — Schwarzman主導
    - **三層モデル統合**: A (SaaS) + B (受託) + C (エクイティ型→Roll Up)
    - **5年シナリオ**: 2026年1.2億 → 2027年4億 → 2028年9億 → 2029年17億 → 2030年33億売上、評価額500-1,000億
    - **Exit 5パターン**: IPO (本命) / PE Secondary / SIer Strategic / Big Tech / Roll Up Compounder

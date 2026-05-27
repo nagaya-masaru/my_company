@@ -9,13 +9,13 @@
 ## 背景
 
 2026-05-27 のセッションで、CEO から「AI Roll Up 自体は非常に気になっている」との発言。
-本案件は事業計画書 (`company/playbooks/2026-business-plan.md`) の Phase 1 (Claude経営参謀 + DXスプリント) 主軸とは別軸の **資本レバレッジ戦略** として、Schwarzman 主導で調査を開始する。
+本案件は事業計画書 (`company/playbooks/keiei/2026-business-plan.md`) の Phase 1 (Claude経営参謀 + DXスプリント) 主軸とは別軸の **資本レバレッジ戦略** として、Schwarzman 主導で調査を開始する。
 
 ### 2026-05-27 深夜追記 — CEO docs 読み取り結果
 
 CEO自身が 2026-05-22 に宮野友樹氏と「ZeroPlus AI/DX 業種別ペインポイント資料」を起草していることが判明。docs §6 で **エクイティ型メニュー** を明示しており、これは Roll Up の入口そのもの。
 
-→ **詳細な統合戦略書を起草**: `company/playbooks/ai-rollup-strategy.md`
+→ **詳細な統合戦略書を起草**: `company/playbooks/ma/ai-rollup-strategy.md`
 → 営業戦略・事業計画・Exit 5パターン・技術アーキテクチャ (洗い出し28機能) を含む
 
 ---
@@ -240,8 +240,8 @@ CEO は本書を読んで以下を決裁する:
 
 ## 関連ドキュメント
 - Decision Log 0002: `company/decisions/0002-first-offering.md`
-- 事業計画書: `company/playbooks/2026-business-plan.md`
-- 営業計画書: `company/playbooks/2026-sales-plan.md`
+- 事業計画書: `company/playbooks/keiei/2026-business-plan.md`
+- 営業計画書: `company/playbooks/sales/2026-sales-plan.md`
 
 ## 改訂履歴
 - 2026-05-27: v1.0 初版 (Schwarzman主導、Marks/Buffett/古美門/九条の対立意見併記)

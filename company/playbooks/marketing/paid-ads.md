@@ -298,10 +298,10 @@
 ---
 
 ## 11. 関連ドキュメント
-- 営業計画書: `company/playbooks/2026-sales-plan.md`
-- 事業計画書: `company/playbooks/2026-business-plan.md`
-- CEO SNSブランディング: `company/playbooks/ceo-sns-branding.md`
-- 既存ネットワーク+紹介: `company/playbooks/network-and-referral.md`
+- 営業計画書: `company/playbooks/sales/2026-sales-plan.md`
+- 事業計画書: `company/playbooks/keiei/2026-business-plan.md`
+- CEO SNSブランディング: `company/playbooks/branding/ceo-sns-branding.md`
+- 既存ネットワーク+紹介: `company/playbooks/sales/network-and-referral.md`
 
 ## 12. 改訂履歴
 - 2026-05-27: v1.0 初版 (Kotler persona ベースでメインClaude起草)

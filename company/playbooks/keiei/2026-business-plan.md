@@ -332,8 +332,8 @@
 - 取締役会議事録: `company/board-minutes/2026-05-27-first-offering-decision.md`
 - Decision Log: `company/decisions/0002-first-offering.md`
 - North Star: `company/north-star.md`
-- 営業計画書: `company/playbooks/2026-sales-plan.md`
-- セッションサマリ: `company/summaries/20260527_summary_first-offering-decision.md`
+- 営業計画書: `company/playbooks/sales/2026-sales-plan.md`
+- セッションサマリ: `company/summaries/product/20260527_first-offering-decision.md`
 
 ### 13-2. 改訂履歴
 - 2026-05-27: v1.0 初版 (メインClaudeが各事業部長 persona を統合して起草)

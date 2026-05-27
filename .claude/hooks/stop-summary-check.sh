@@ -1,8 +1,8 @@
 #!/bin/bash
 # Stop hook — 長屋優's Claude-only company
 #
-# 本日のセッションサマリが company/summaries/yyyymmdd_summary_*.md に
-# 保存されているか確認する。未保存ならClaudeに書くよう指示してブロック。
+# 本日のセッションサマリが company/summaries/{事業部}/yyyymmdd_*.md に
+# 保存されているか確認する (再帰検索)。未保存ならClaudeに書くよう指示してブロック。
 # 保存済みなら通常停止を許可。
 #
 # 関連ファイル:
@@ -15,17 +15,16 @@ PROJECT_ROOT="/Users/nagayamasaru/Downloads/github/me"
 SUMMARIES_DIR="${PROJECT_ROOT}/company/summaries"
 TODAY=$(date +%Y%m%d)
 
-# 本日のサマリ (テンプレ・READMEを除く yyyymmdd_summary_*.md) の有無を確認
-shopt -s nullglob
-matches=("${SUMMARIES_DIR}/${TODAY}_summary_"*.md)
-shopt -u nullglob
+# 本日のサマリを再帰検索 (事業部別サブディレクトリ配下を含む)
+# 雑談のみセッションは company/summaries/_trivial/${TODAY}.md でも可
+matches=$(find "${SUMMARIES_DIR}" -type f \( -name "${TODAY}_*.md" -o -name "${TODAY}.md" \) 2>/dev/null | head -n 1 || true)
 
-if [ ${#matches[@]} -gt 0 ]; then
+if [ -n "${matches}" ]; then
     # 本日のサマリ既に存在 → 停止許可
     exit 0
 fi
 
 # 未保存 → ブロックしてClaudeに書かせる
 cat <<EOF
-{"decision": "block", "reason": "本日 (${TODAY}) のセッションサマリが company/summaries/ にまだ保存されていません。CLAUDE.md のセクション5に従い、以下のいずれかを実行してから停止してください:\n\n1. 実質的なやり取りがあったなら: company/summaries/${TODAY}_summary_{topic-slug}.md を作成 (テンプレ: company/summaries/_template.md)\n2. 雑談・単発質問のみで保存不要なら: company/summaries/${TODAY}_summary_trivial.md を空のプレースホルダで作成して停止可"}
+{"decision": "block", "reason": "本日 (${TODAY}) のセッションサマリが company/summaries/ 配下にまだ保存されていません。CLAUDE.md のセクション5に従い、以下のいずれかを実行してから停止してください:\n\n1. 実質的なやり取りがあったなら: company/summaries/{事業部}/${TODAY}_{topic-slug}.md を作成 (事業部dir: keiei/sales/marketing/branding/ma/product 等。テンプレ: company/summaries/_template.md)\n2. 雑談・単発質問のみで保存不要なら: company/summaries/_trivial/${TODAY}.md を空のプレースホルダで作成して停止可"}
 EOF

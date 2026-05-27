@@ -191,7 +191,7 @@ CEO自身が docs §6 の **提案メニュー案** で5層を提示している
 - 月3件の地銀同行 → 1件のエクイティ型提案
 
 #### Layer 3: 自社オウンドメディア + Direct Approach
-- CEO実名SNSと連動 (`company/playbooks/ceo-sns-branding.md`)
+- CEO実名SNSと連動 (`company/playbooks/branding/ceo-sns-branding.md`)
 - 事業継承希望オーナーへの Direct Mail / 経営者交流会経由
 - M&A仲介会社 (M&Aキャピタル / 日本M&A / ストライク) からのソーシング
 
@@ -635,11 +635,11 @@ Schwarzman から CEO へ:
 ---
 
 ## 14. 関連ドキュメント
-- 既存事業計画書: `company/playbooks/2026-business-plan.md`
-- 営業計画書: `company/playbooks/2026-sales-plan.md`
-- CEO SNS ブランディング: `company/playbooks/ceo-sns-branding.md`
-- 既存ネットワーク+紹介: `company/playbooks/network-and-referral.md`
-- 有料広告: `company/playbooks/paid-ads.md`
+- 既存事業計画書: `company/playbooks/keiei/2026-business-plan.md`
+- 営業計画書: `company/playbooks/sales/2026-sales-plan.md`
+- CEO SNS ブランディング: `company/playbooks/branding/ceo-sns-branding.md`
+- 既存ネットワーク+紹介: `company/playbooks/sales/network-and-referral.md`
+- 有料広告: `company/playbooks/marketing/paid-ads.md`
 - Decision 0002 (オファー決定): `company/decisions/0002-first-offering.md`
 - Decision 0003 (Roll Up 調査): `company/decisions/0003-ai-rollup-investigation.md`
 - **原典**: `company/docs/ZeroPlus_AI_DX_業種別ペインポイント資料.docx` (CEO + 宮野友樹 2026-05-22)

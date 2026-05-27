@@ -12,7 +12,7 @@
   - 召喚形態は **Claude Code サブエージェント** (`.claude/agents/`配下) で確定
   - 会社全体の運営マニュアルとして `CLAUDE.md` を整備
   - 1億の North Star ファイルを `company/north-star.md` に設置 (Plan A/B/C のたたき台付き)
-  - **セッションサマリは `company/summaries/yyyymmdd_summary_{slug}.md` に保存** (本ファイルが第1号)
+  - **セッションサマリは `company/summaries/{事業部}/yyyymmdd_{slug}.md` に保存** (旧 `yyyymmdd_summary_{slug}.md` から事業部別dir構造に移行)
   - 必須5セクション: 議題 / 主な結論 / 参加事業部長 / アクションアイテム / Decision Log項目
 - 決まらなかったこと/保留:
   - 1億の定義 (売上 / 営業利益 / 税引後 / キャッシュイン)

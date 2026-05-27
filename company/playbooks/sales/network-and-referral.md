@@ -206,9 +206,9 @@
 ---
 
 ## 10. 関連ドキュメント
-- 営業計画書 §3-2 (リードソース別配分): `company/playbooks/2026-sales-plan.md`
-- 事業計画書 §7 (組織): `company/playbooks/2026-business-plan.md`
-- CEO SNSブランディング: `company/playbooks/ceo-sns-branding.md`
+- 営業計画書 §3-2 (リードソース別配分): `company/playbooks/sales/2026-sales-plan.md`
+- 事業計画書 §7 (組織): `company/playbooks/keiei/2026-business-plan.md`
+- CEO SNSブランディング: `company/playbooks/branding/ceo-sns-branding.md`
 
 ## 11. 改訂履歴
 - 2026-05-27: v1.0 初版 (設楽 persona ベースでメインClaude起草)

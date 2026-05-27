@@ -62,4 +62,4 @@
 
 ## 派生ドキュメント
 - 議事録: `company/board-minutes/2026-05-27-first-offering-decision.md`
-- 各部執行プラン: `company/summaries/20260527_summary_first-offering-decision.md`
+- 各部執行プラン: `company/summaries/product/20260527_first-offering-decision.md`

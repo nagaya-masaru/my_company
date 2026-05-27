@@ -286,8 +286,8 @@ on this profile.
 ---
 
 ## 12. 関連ドキュメント
-- 事業計画書 §6: `company/playbooks/2026-business-plan.md`
-- 営業計画書 §3 (リードソース): `company/playbooks/2026-sales-plan.md`
+- 事業計画書 §6: `company/playbooks/keiei/2026-business-plan.md`
+- 営業計画書 §3 (リードソース): `company/playbooks/sales/2026-sales-plan.md`
 - Decision Log: `company/decisions/0002-first-offering.md`
 
 ## 13. 改訂履歴

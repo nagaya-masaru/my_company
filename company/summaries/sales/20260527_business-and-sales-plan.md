@@ -14,10 +14,10 @@
 - 含意: オピニオンリーダー化を全面採用。Bezos の Working Backwards プレスリリース / Jobs のキーノート登壇 / Kotler のオウンドメディア / Threads・X・LinkedIn 実名発信をすべて解禁
 
 ### 作成完了したドキュメント
-- `company/playbooks/2026-business-plan.md` — 事業計画書 (342行)
+- `company/playbooks/keiei/2026-business-plan.md` — 事業計画書 (342行)
   - Executive Summary / 市場分析 (TAM/SAM/SOM) / STP / オファー詳細 (A/B) / 製品ロードマップ / メディア戦略 / 財務P&L / KPI / リスク管理 / 検証マイルストーン
   - **6ヶ月着地予想: 売上 1.2億 (バッファ込み)、営業利益 約1億**
-- `company/playbooks/2026-sales-plan.md` — 営業計画書 (390行)
+- `company/playbooks/sales/2026-sales-plan.md` — 営業計画書 (390行)
   - ICP / パイプライン設計 / 7段階スクリプト / 反論処理TOP20 / Belfort 9トーン / KPIダッシュボード / 値引きルール / 契約フロー / インセンティブ設計 / 組織ロードマップ
   - **必要MQL: 月150件、CVR目標 MQL→SQL 30% / SQL→契約 25%**
 
@@ -25,7 +25,7 @@
 - `company/north-star.md` — 1億定義を「売上」に確定、メディア露出スタンス追記
 - `company/decisions/0002-first-offering.md` — CEO決裁マターを確定済みに
 - `company/board-minutes/2026-05-27-first-offering-decision.md` — 同上
-- `company/summaries/20260527_summary_first-offering-decision.md` — CEOアクションアイテム2件をチェック済みに
+- `company/summaries/product/20260527_first-offering-decision.md` — CEOアクションアイテム2件をチェック済みに
 
 ### メモリ更新
 - `project_north_star.md` 更新 (確定事項セクション追加)
@@ -48,8 +48,8 @@
 ## アクションアイテム
 
 ### CEO (長屋優) — 期限 2026-05-28 朝
-- [ ] 事業計画書のレビュー・承認 (`company/playbooks/2026-business-plan.md`)
-- [ ] 営業計画書のレビュー・承認 (`company/playbooks/2026-sales-plan.md`)
+- [ ] 事業計画書のレビュー・承認 (`company/playbooks/keiei/2026-business-plan.md`)
+- [ ] 営業計画書のレビュー・承認 (`company/playbooks/sales/2026-sales-plan.md`)
 - [ ] SNS実名再起動 (Threads/X/LinkedIn)
 - [ ] 1日の営業時間ブロック確保 (10:00-13:00)
 - [ ] 既存0plus顧客リスト Belfortへ共有
