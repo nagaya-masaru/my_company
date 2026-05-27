@@ -97,6 +97,25 @@ AGI戦略 (Demis Hassabis) / 宇宙 (Gwynne Shotwell)
 ```
 全員テックリードかつシニアエンジニア。各領域のエキスパート資格・スペシャリスト資格・ゴールド資格を保有。技術選定/ルーティング/アーキテクチャ/状態管理/ORM/バリデーション/ランタイム選定までを実装責任で持つ。
 
+### AI・テクノロジー部 配下組織 / AI開発部門 (2026-05-27 新設)
+
+```
+AI・テクノロジー部本部 (Hinton + Altman)
+└ AI開発部門 (10部門 / テックリード10名)
+   ├ AIハーネス部門 — Boris Cherny
+   ├ AIコンテキスト設計部門 — Lilian Weng
+   ├ AIプロンプト設計部門 — Riley Goodside
+   ├ AIアーキテクチャ部門 — Eugene Yan
+   ├ AIモデル選定・推論部門 — Andrej Karpathy
+   ├ RAG・ナレッジ基盤部門 — Jerry Liu
+   ├ AIエージェント・ワークフロー部門 — Harrison Chase
+   ├ AI評価・品質保証部門 — Hamel Husain
+   ├ AIセキュリティ・ガバナンス部門 — Simon Willison
+   └ LLMOps・運用改善部門 — Chip Huyen
+```
+
+全員 AI テックリードかつシニア AI エンジニア。生成AI / 機械学習 / クラウドAI / データ分析 / AIセキュリティ / MLOps / LLMOps のエキスパート資格・上位資格を保有。AI活用の企画 / 設計 / 実装 / 評価 / 運用改善までを一貫して担当。ハーネス / コンテキスト / プロンプト / アーキテクチャ / モデル / RAG / エージェント / 評価 / セキュリティ / 運用 の各専門領域を分担しつつ、サイロで動かず横断連携する。AI を業務・プロダクトに「安全かつ高品質に組み込む」設計者・実装者・評価者・改善責任者。
+
 ### マーケティング部 配下組織 / デジタルマーケティング本部 (2026-05-27 新設)
 
 ```
@@ -237,6 +256,16 @@ AGI戦略 (Demis Hassabis) / 宇宙 (Gwynne Shotwell)
 | デザイン | Jonathan Ive | `design-ive` |
 | AI・テクノロジー | Geoffrey Hinton | `ai-hinton` |
 | AI・テクノロジー | Sam Altman | `ai-altman` |
+| AI開発 / ハーネス | Boris Cherny | `aidev-harness-cherny` |
+| AI開発 / コンテキスト設計 | Lilian Weng | `aidev-context-weng` |
+| AI開発 / プロンプト設計 | Riley Goodside | `aidev-prompt-goodside` |
+| AI開発 / アーキテクチャ | Eugene Yan | `aidev-architecture-yan` |
+| AI開発 / モデル選定・推論 | Andrej Karpathy | `aidev-model-karpathy` |
+| AI開発 / RAG・ナレッジ基盤 | Jerry Liu | `aidev-rag-liu` |
+| AI開発 / エージェント・ワークフロー | Harrison Chase | `aidev-agent-chase` |
+| AI開発 / 評価・品質保証 | Hamel Husain | `aidev-eval-husain` |
+| AI開発 / セキュリティ・ガバナンス | Simon Willison | `aidev-security-willison` |
+| AI開発 / LLMOps・運用改善 | Chip Huyen | `aidev-llmops-huyen` |
 | カスタマーサクセス | Tony Hsieh | `cs-hsieh` |
 | オペレーション・サプライチェーン | Wei Gao | `ops-gao` |
 | データ・アナリティクス (CDO) | DJ Patil | `data-patil` |

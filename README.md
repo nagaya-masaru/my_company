@@ -15,10 +15,10 @@ Claude だけで運営する会社。CEO は長屋優。
 ## 組織規模
 
 - 経営チーム (事業部長): 22事業部
-- 配下の専門組織: システム開発部20名 + デジタルマーケティング本部42名
+- 配下の専門組織: システム開発部20名 + デジタルマーケティング本部42名 + AI開発部門10名
 - 取締役会: 7名
 - 秘書室: 1名
-- **サブエージェント総数: 90名** (`.claude/agents/`)
+- **サブエージェント総数: 100名** (`.claude/agents/`)
 
 ## 経営チーム
 
@@ -41,7 +41,7 @@ Claude だけで運営する会社。CEO は長屋優。
 | ナレッジ部 | Ray Dalio |
 | M&A・PE部 | Stephen Schwarzman |
 | デザイン事業部 | Jonathan Ive |
-| AI・テクノロジー部 | Geoffrey Hinton / Sam Altman |
+| AI・テクノロジー部 | Geoffrey Hinton / Sam Altman **(配下に AI開発部門10名のテックリード)** |
 
 ### 2026-05-27 取締役会決議で新設・即時稼働 (8部署)
 
@@ -82,6 +82,25 @@ AGI戦略 (Demis Hassabis) / 宇宙 (Gwynne Shotwell)
 
 全員テックリードかつシニアエンジニア。各領域のエキスパート・スペシャリスト・ゴールド資格を保有。
 
+## AI・テクノロジー部 配下組織 / AI開発部門 (10名)
+
+```
+AI・テクノロジー部本部 (Hinton + Altman)
+└ AI開発部門 (10部門 / テックリード10名)
+   ├ AIハーネス部門 — Boris Cherny (Claude Code 創造者)
+   ├ AIコンテキスト設計部門 — Lilian Weng (元 OpenAI VP / Thinking Machines)
+   ├ AIプロンプト設計部門 — Riley Goodside (Scale AI Staff Prompt Engineer)
+   ├ AIアーキテクチャ部門 — Eugene Yan (Amazon Principal Applied Scientist)
+   ├ AIモデル選定・推論部門 — Andrej Karpathy (元 OpenAI/Tesla / Eureka Labs)
+   ├ RAG・ナレッジ基盤部門 — Jerry Liu (LlamaIndex CEO)
+   ├ AIエージェント・ワークフロー部門 — Harrison Chase (LangChain CEO)
+   ├ AI評価・品質保証部門 — Hamel Husain (Parlance Labs)
+   ├ AIセキュリティ・ガバナンス部門 — Simon Willison (Prompt Injection 命名者)
+   └ LLMOps・運用改善部門 — Chip Huyen ("AI Engineering" 著者)
+```
+
+全員 AI テックリードかつシニア AI エンジニア。生成AI / 機械学習 / クラウドAI / データ分析 / AIセキュリティ / MLOps / LLMOps のエキスパート資格・上位資格を保有。AI活用の企画 / 設計 / 実装 / 評価 / 運用改善までを一貫して担当。ハーネス / コンテキスト / プロンプト / アーキテクチャ / モデル / RAG / エージェント / 評価 / セキュリティ / 運用 の各専門領域を分担しつつ、サイロで動かず横断連携する。AI を業務・プロダクトに「安全かつ高品質に組み込む」設計者・実装者・評価者・改善責任者。
+
 ## マーケティング部 配下組織 / デジタルマーケティング本部 (42名)
 
 ```
@@ -112,6 +131,9 @@ CEOの発話例:
 - 「秘書室、来週のスケジュールを整理して」 → `ceo-secretary-shidara` に委譲
 - 「Meta広告の改善を Foxwell と相談したい」 → `dm-ads-meta-foxwell` 召喚
 - 「SEO の月次レビューを Fishkin と Solis と Dean で並列で」 → 並列召喚
+- 「顧客向け AI 機能の評価セットを Husain と作りたい」 → `aidev-eval-husain` 召喚
+- 「モデル選定を Karpathy と Yan で議論してくれ」 → `aidev-model-karpathy` + `aidev-architecture-yan` 並列召喚
+- 「プロンプトインジェクションのレビューを Willison に」 → `aidev-security-willison` 召喚
 
 対応するサブエージェントが召喚され、必要に応じて両論併記・多数決でCEOに上げる。
 
